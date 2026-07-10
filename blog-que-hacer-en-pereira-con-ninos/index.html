@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qué Hacer en Pereira con Niños: Itinerario de 3 Noches por el Eje Cafetero | La Perla Haus</title>
+<meta name="description" content="Guía local 2026 de Dany y Richard, anfitriones de La Perla Haus Dosquebradas: itinerario de 3 noches por Pereira, Salento, Valle de Cocora y Termales de Santa Rosa con niños.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --crema: #F7EDE6;
+    --cafe: #5D3725;
+    --durazno: #D69778;
+    --terracota: #BC6039;
+    --malva: #AE797D;
+    --rosa-malva: #BC999B;
+  }
+
+  *{ box-sizing: border-box; margin: 0; padding: 0; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--crema);
+    color: var(--cafe);
+    font-weight: 400;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img{ max-width: 100%; display: block; }
+
+  a{ color: inherit; }
+
+  .wrap{
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .wrap-wide{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- HEADER / NAV ---------- */
+
+  .site-header{
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    background: rgba(247,237,230,0.94);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(93,55,37,0.08);
+  }
+
+  .nav-inner{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .nav-logo{ display: block; line-height: 0; }
+  .nav-logo img{ height: 40px; width: auto; }
+
+  .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 14.5px;
+    font-weight: 500;
+  }
+
+  .nav-links a:not(.btn){
+    text-decoration: none;
+    color: var(--cafe);
+    position: relative;
+    padding: 4px 0;
+  }
+  .nav-links a:not(.btn)::after{
+    content: "";
+    position: absolute;
+    left: 0; bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: var(--terracota);
+    transition: width 0.2s ease;
+  }
+  .nav-links a:not(.btn):hover::after{ width: 100%; }
+
+  .btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s ease, background 0.2s ease;
+    white-space: nowrap;
+  }
+  .btn:hover{ transform: translateY(-2px); }
+  .btn-terracota{ background: var(--terracota); color: var(--crema); }
+  .btn-terracota:hover{ background: #A34F2E; }
+
+  .nav-toggle{
+    display: none;
+    flex: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(93,55,37,0.2);
+    background: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .nav-toggle svg{ width: 20px; height: 20px; }
+
+  @media (max-width: 860px){
+    .nav-links{
+      position: absolute;
+      top: 100%; left: 0; right: 0;
+      background: var(--crema);
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      padding: 8px 24px 18px;
+      border-bottom: 1px solid rgba(93,55,37,0.1);
+      display: none;
+    }
+    .nav-links.is-open{ display: flex; }
+    .nav-links a:not(.btn){ padding: 12px 0; }
+    .nav-links .btn{ margin-top: 10px; align-self: flex-start; }
+    .nav-toggle{ display: flex; }
+  }
+
+  /* ---------- HERO ---------- */
+
+  .hero{
+    position: relative;
+    min-height: 78vh;
+    display: flex;
+    align-items: flex-end;
+    background: var(--cafe);
+    overflow: hidden;
+  }
+
+  .hero img.hero-photo{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+  }
+
+  .hero::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(93,55,37,0.15) 0%, rgba(93,55,37,0.35) 55%, rgba(45,25,16,0.86) 100%);
+  }
+
+  .hero-inner{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 0 24px 56px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-eyebrow{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--crema);
+    background: rgba(247,237,230,0.14);
+    border: 1px solid rgba(247,237,230,0.4);
+    padding: 7px 18px;
+    border-radius: 30px;
+    font-size: 12.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 22px;
+  }
+
+  .hero h1{
+    color: var(--crema);
+    font-size: clamp(30px, 5vw, 52px);
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---------- ARTICLE BODY ---------- */
+
+  .article{
+    padding: 64px 0 20px;
+  }
+
+  .lede p{
+    font-size: 18px;
+    color: var(--cafe);
+    margin-bottom: 22px;
+  }
+
+  .lede p:first-of-type::first-letter{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.4em;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 10px 0 0;
+    color: var(--terracota);
+  }
+
+  .signoff-inline{
+    font-weight: 600;
+    color: var(--terracota);
+  }
+
+  p{ margin-bottom: 20px; }
+
+  h2{
+    font-size: clamp(24px, 3.4vw, 32px);
+    font-weight: 700;
+    color: var(--cafe);
+    line-height: 1.3;
+    scroll-margin-top: 28px;
+  }
+
+  .day-heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 8px 0 26px;
+  }
+
+  .day-tag{
+    flex: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--malva);
+    color: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .section-block{
+    padding: 54px 0;
+  }
+
+  .section-block.alt{
+    background: linear-gradient(180deg, rgba(174,121,125,0.08), rgba(174,121,125,0));
+  }
+
+  /* ---------- DIVIDER ---------- */
+
+  .divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 8px 0 46px;
+    color: var(--rosa-malva);
+  }
+
+  .divider img{ width: 26px; height: 26px; opacity: 0.85; }
+
+  .divider::before, .divider::after{
+    content: "";
+    height: 1px;
+    width: 64px;
+    background: var(--rosa-malva);
+    opacity: 0.5;
+  }
+
+  /* ---------- TOC / ITINERARY MAP ---------- */
+
+  .toc-card{
+    background: #FFFFFF;
+    border: 1px solid rgba(174,121,125,0.28);
+    border-radius: 18px;
+    padding: 30px 28px;
+    margin: 34px 0 10px;
+    box-shadow: 0 18px 40px -26px rgba(93,55,37,0.35);
+  }
+
+  .toc-card p.toc-lead{
+    font-weight: 500;
+    color: var(--cafe);
+    margin-bottom: 18px;
+    font-size: 16.5px;
+  }
+
+  .toc-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .toc-list a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--cafe);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 11px 14px;
+    border-radius: 10px;
+    background: var(--crema);
+    transition: background 0.2s ease, padding-left 0.2s ease, color 0.2s ease;
+  }
+
+  .toc-list a:hover{
+    background: var(--malva);
+    color: var(--crema);
+    padding-left: 20px;
+  }
+
+  .toc-list .num{
+    flex: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--rosa-malva);
+    color: #fff;
+    font-size: 12.5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ---------- IMAGE GALLERIES ---------- */
+
+  .gallery{
+    display: grid;
+    gap: 16px;
+    margin: 30px 0 36px;
+  }
+
+  .gallery-2{ grid-template-columns: 1fr 1fr; }
+  .gallery-3{ grid-template-columns: repeat(3, 1fr); }
+
+  .gallery figure, .feature-photo{
+    margin: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--durazno);
+    position: relative;
+  }
+
+  .gallery figure img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .gallery figure:hover img{ transform: scale(1.05); }
+
+  .feature-photo img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .feature-photo{ margin: 34px 0; }
+
+  figcaption{
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 22px 14px 10px;
+    background: linear-gradient(180deg, rgba(93,55,37,0) 0%, rgba(45,25,16,0.72) 100%);
+    color: var(--crema);
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+
+  /* ---------- LINKS WITHIN COPY ---------- */
+
+  .map-link{
+    color: var(--cafe);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--terracota);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  .map-link:hover{ color: var(--terracota); }
+
+  /* ---------- CTA BLOCKS (Airbnb) ---------- */
+
+  .cta-block{
+    background: linear-gradient(135deg, var(--malva), var(--rosa-malva));
+    border-radius: 20px;
+    padding: 32px 30px;
+    margin: 40px 0 44px;
+    color: var(--crema);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 22px 44px -26px rgba(93,55,37,0.55);
+  }
+
+  .cta-block.final{
+    background: linear-gradient(135deg, var(--terracota), var(--durazno));
+    flex-direction: column;
+    text-align: center;
+    padding: 44px 32px;
+    gap: 10px;
+  }
+
+  .cta-icon{
+    flex: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: rgba(247,237,230,0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-icon svg{ width: 22px; height: 22px; }
+
+  .cta-text{
+    flex: 1 1 260px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .cta-block.final .cta-text{
+    font-size: 18px;
+    max-width: 480px;
+  }
+
+  .cta-btn{
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: var(--cafe);
+    color: var(--crema) !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14.5px;
+    padding: 13px 26px;
+    border-radius: 30px;
+    white-space: nowrap;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+
+  .cta-btn:hover{ transform: translateY(-2px); background: #452817; }
+
+  .cta-btn svg{ width: 16px; height: 16px; }
+
+  /* ---------- TIP / INFO BOX ---------- */
+
+  .info-box{
+    background: #FFFFFF;
+    border-left: 4px solid var(--terracota);
+    border-radius: 4px 14px 14px 4px;
+    padding: 22px 26px;
+    margin: 30px 0;
+    font-size: 15.5px;
+  }
+
+  .info-box .info-label{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--terracota);
+    margin-bottom: 8px;
+  }
+
+  .packing-note{
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    background: rgba(214,151,120,0.14);
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin: 26px 0;
+    font-size: 15px;
+  }
+
+  .packing-note svg{ flex: none; width: 22px; height: 22px; margin-top: 3px; color: var(--terracota); }
+
+  /* ---------- CAFE CHOICE CARDS ---------- */
+
+  .choice-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin: 30px 0 10px;
+  }
+
+  .choice-card{
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 14px 30px -22px rgba(93,55,37,0.4);
+  }
+
+  .choice-card img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .choice-card .choice-label{
+    padding: 12px 16px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--cafe);
+  }
+
+  /* ---------- GEMS GRID (Día 4 extras) ---------- */
+
+  .gems-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 34px 0 10px;
+  }
+
+  .gem-card{
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 16px 34px -24px rgba(93,55,37,0.4);
+  }
+
+  .gem-card img{
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .gem-card-body{ padding: 18px 20px 22px; }
+
+  .gem-card h3{
+    font-size: 16.5px;
+    font-weight: 700;
+    color: var(--terracota);
+    margin-bottom: 8px;
+  }
+
+  .gem-card p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: var(--cafe);
+  }
+
+  /* ---------- APARTMENT / CLOSING ---------- */
+
+  .closing-section{
+    background: var(--cafe);
+    color: var(--crema);
+    padding: 64px 0 60px;
+  }
+
+  .closing-section h2{ color: var(--crema); }
+
+  .closing-section p{ color: rgba(247,237,230,0.92); }
+
+  .apt-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 30px 0 8px;
+  }
+
+  .apt-photo-btn{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .apt-photo-btn::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(93,55,37,0.16);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .apt-photo-btn:hover::after,
+  .apt-photo-btn:focus-visible::after{
+    opacity: 1;
+  }
+
+  .apt-photo-btn:hover img{ transform: scale(1.05); }
+
+  .apt-gallery img{
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 14px;
+    transition: transform 0.4s ease;
+  }
+
+  /* ---------- LIGHTBOX ---------- */
+
+  .lightbox{
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(30,17,11,0.94);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox.is-open{ display: flex; }
+
+  .lightbox-img{
+    max-width: min(90vw, 780px);
+    max-height: 84vh;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+  }
+
+  .lightbox-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(247,237,230,0.14);
+    border: 1px solid rgba(247,237,230,0.3);
+    color: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .lightbox-close svg{ width: 20px; height: 20px; }
+
+  .lightbox-nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(247,237,230,0.14);
+    border: 1px solid rgba(247,237,230,0.3);
+    color: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .lightbox-nav svg{ width: 22px; height: 22px; }
+
+  .lightbox-prev{ left: 16px; }
+  .lightbox-next{ right: 16px; }
+
+  .lightbox-counter{
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--crema);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    background: rgba(247,237,230,0.14);
+    padding: 6px 16px;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 560px){
+    .lightbox-nav{ width: 40px; height: 40px; }
+    .lightbox-prev{ left: 8px; }
+    .lightbox-next{ right: 8px; }
+  }
+
+  .apt-features{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 24px 0 8px;
+  }
+
+  .apt-feature{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(247,237,230,0.1);
+    border: 1px solid rgba(247,237,230,0.28);
+    padding: 8px 16px 8px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .apt-feature svg{
+    flex: none;
+    width: 17px;
+    height: 17px;
+    color: var(--durazno);
+  }
+
+  .closing-section .cta-block.final{
+    background: linear-gradient(135deg, var(--rosa-malva), var(--malva));
+  }
+
+  /* ---------- NEXT-GUIDE TEASER ---------- */
+
+  .teaser{
+    background: rgba(247,237,230,0.08);
+    border: 1px solid rgba(247,237,230,0.22);
+    border-radius: 16px;
+    padding: 24px 26px;
+    margin: 40px 0 10px;
+    font-size: 15px;
+    font-style: italic;
+    color: var(--crema);
+  }
+
+  /* ---------- SIGNATURE ---------- */
+
+  .signature{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 46px 0 10px;
+    padding-top: 34px;
+    border-top: 1px solid rgba(247,237,230,0.2);
+  }
+
+  .signature-icon{
+    flex: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signature-icon img{
+    width: 34px;
+    height: auto;
+  }
+
+  .signature-text p{
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .signature-text .sign-name{
+    font-weight: 700;
+    color: var(--durazno);
+    font-size: 16px;
+  }
+
+  .signature-text .sign-role{
+    font-size: 13px;
+    color: var(--rosa-malva);
+    letter-spacing: 0.03em;
+  }
+
+  /* ---------- FOOTER ---------- */
+
+  .site-footer{
+    background: var(--malva);
+    color: var(--crema);
+    text-align: center;
+    padding: 46px 24px 34px;
+  }
+
+  .site-footer img{
+    height: 40px;
+    margin: 0 auto 14px;
+  }
+
+  .site-footer .promise{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 18px;
+  }
+
+  .site-footer .fine{
+    font-size: 12px;
+    opacity: 0.85;
+    margin-top: 18px;
+  }
+
+  .social-row{ display: flex; justify-content: center; gap: 10px; margin: 16px 0 4px; }
+  .social-icon{
+    width: 38px; height: 38px; border-radius: 50%;
+    background: rgba(247,237,230,0.14);
+    border: 1px solid rgba(247,237,230,0.3);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--crema);
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .social-icon:hover{ background: rgba(247,237,230,0.28); transform: translateY(-2px); }
+  .social-icon svg{ width: 18px; height: 18px; }
+  .social-icon.instagram{ background: var(--terracota); border-color: var(--terracota); color: var(--crema); }
+  .social-icon.instagram:hover{ background: #A34F2E; }
+
+  /* ---------- RESPONSIVE ---------- */
+
+  @media (max-width: 720px){
+    .hero{ min-height: 92vh; }
+    .gallery-3{ grid-template-columns: 1fr 1fr; }
+    .gallery-3 figure:last-child{ grid-column: span 2; }
+    .choice-grid{ grid-template-columns: 1fr; }
+    .gems-grid{ grid-template-columns: 1fr; }
+    .apt-gallery{ grid-template-columns: 1fr 1fr; }
+    .apt-gallery img:first-child{ grid-column: span 2; aspect-ratio: 16/10; }
+    .cta-block{ flex-direction: column; text-align: center; }
+    .cta-btn{ width: 100%; justify-content: center; }
+  }
+
+  @media (max-width: 480px){
+    .gallery-2{ grid-template-columns: 1fr; }
+  }
+
+  /* ---------- WHATSAPP FLOTANTE ---------- */
+
+  .whatsapp-float{
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .whatsapp-label{
+    background: var(--cafe);
+    color: var(--crema);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 30px;
+    box-shadow: 0 12px 24px -14px rgba(93,55,37,0.5);
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+
+  .whatsapp-btn{
+    position: relative;
+    flex: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: var(--terracota);
+    color: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 16px 30px -12px rgba(93,55,37,0.55);
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  .whatsapp-btn svg{ width: 27px; height: 27px; }
+  .whatsapp-btn::before{
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    border: 2px solid var(--terracota);
+    opacity: 0.55;
+    animation: whatsapp-pulse 2.2s ease-out infinite;
+  }
+  .whatsapp-btn:hover{ transform: scale(1.06); background: #A34F2E; }
+  .whatsapp-float:hover .whatsapp-label{ opacity: 1; transform: translateX(0); }
+
+  @keyframes whatsapp-pulse{
+    0%{ transform: scale(1); opacity: 0.55; }
+    100%{ transform: scale(1.45); opacity: 0; }
+  }
+
+  @media (max-width: 620px){
+    .whatsapp-float{ right: 16px; bottom: 16px; }
+    .whatsapp-label{ display: none; }
+    .whatsapp-btn{ width: 52px; height: 52px; }
+  }
+
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo"><img src="assets/brand/logo_la_perla_cafe.png" alt="La Perla Haus — volver al inicio"></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html#inicio">Inicio</a>
+        <a href="../index.html#apartamentos">Apartamentos</a>
+        <a href="../index.html#guias">Guías del Eje Cafetero</a>
+        <a href="../index.html#nosotros">Sobre nosotros</a>
+        <a href="../index.html#reservar" class="btn btn-terracota">Reservar en Airbnb</a>
+      </nav>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img class="hero-photo" src="assets/img/pereira.jpg" alt="Puente de la ciudad de Pereira iluminado de noche, Eje Cafetero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Blog · La Perla Haus Dosquebradas</span>
+      <h1>Qué Hacer en Pereira con Niños: Nuestro Itinerario de 3 Noches por el Eje Cafetero (Guía Local 2026)</h1>
+    </div>
+  </section>
+
+  <main>
+    <article class="article">
+      <div class="wrap">
+
+        <div class="lede">
+          <p>Planificar un viaje en familia nunca es tan simple como parece. Se quiere que los niños terminen el día agotados de tanto jugar y descubrir cosas nuevas, pero también se sueña con esas tardes lentas, un buen plato en la mesa y cero dolores de cabeza de logística. Nosotros no somos papás, pero cada semana recibimos familias que llegan buscando exactamente eso — y sabemos que organizar cada detalle del viaje es una de las partes más pesadas cuando se viaja con niños. <strong>Por eso armamos esta guía.</strong></p>
+
+          <p>Somos Dany y Richard: orgullosamente pereiranos, viajeros y súper anfitriones en Airbnb. Escribimos esto desde el cariño que le tenemos a nuestra tierra —el Eje Cafetero— y desde las rutas que hemos recorrido una y otra vez, primero como turistas curiosos y hoy, como esos amigos a los que siempre les piden consejos de viaje. Si alguna vez han soñado con oler café recién trillado apenas se bajan del carro, caminar entre palmas que casi tocan el cielo, o sentarse a disfrutar un rico desayuno con las montañas de fondo, <strong>este itinerario de 3 noches está pensado para ustedes.</strong></p>
+
+          <p>Aquí les dejamos el mapa completo de nuestro parche favorito de tres noches en familia:</p>
+        </div>
+
+        <div class="feature-photo">
+          <img src="assets/img/familia.jpg" alt="Familia disfrutando de las fachadas coloridas del Eje Cafetero">
+        </div>
+
+        <div class="toc-card">
+          <p class="toc-lead">Nuestro itinerario de 3 noches, día a día:</p>
+          <ul class="toc-list">
+            <li><a href="#dia-1"><span class="num">1</span> Día 1: Bienvenida, tarde en el lago y cena con vista</a></li>
+            <li><a href="#dia-2"><span class="num">2</span> Día 2: Palmas gigantes de Cocora y calles de colores en Salento</a></li>
+            <li><a href="#dia-3"><span class="num">3</span> Día 3: Termales, chorizo santarrosano y alta repostería</a></li>
+            <li><a href="#dia-4"><span class="num">4</span> Día 4: Un regreso con calma (o más aventuras)</a></li>
+            <li><a href="#antes-de-que-se-vayan"><span class="num">5</span> Antes de que se vayan...</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- DÍA 1 -->
+      <div class="section-block">
+        <div class="wrap">
+          <div class="day-heading">
+            <span class="day-tag">01</span>
+            <h2 id="dia-1" style="margin:0; scroll-margin-top:28px;">Día 1: Bienvenida, tarde en el lago y cena con vista</h2>
+          </div>
+
+          <p>Por lo general, los check-in en la zona rondan las <strong>3:00 PM</strong>. Si viajaron por carretera y el trayecto fue largo, la primera tarde debe estar pensada para <strong>tomarse las cosas con calma</strong> — nada de planes que impliquen mucho desplazamiento.</p>
+
+          <p>Por eso sugerimos algo cerca de la ciudad. Nuestra primera recomendación es el <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Lago+La+Pradera+Dosquebradas+Risaralda" target="_blank" rel="noopener">Lago La Pradera</a>, a solo <strong>8 minutos en auto</strong> desde el sector de Dosquebradas. Es ideal si viajan con niños: cuenta con senderos ecológicos, zonas de juegos infantiles y hasta <strong>botes de pedal para remar en familia</strong> por el lago central. Dentro del parque van a encontrar diferentes casetas que venden comida local, helados y bebidas frescas — perfecto para un snack de media tarde antes de seguir.</p>
+
+          <div class="gallery gallery-2">
+            <figure><img src="assets/img/lago_de_la_pradera.jpg" alt="Lago La Pradera, Dosquebradas, senderos ecológicos en familia"><figcaption>Lago La Pradera, Dosquebradas</figcaption></figure>
+            <figure><img src="assets/img/lago_de_la_pradera002.jpg" alt="Botes de pedal en el Lago La Pradera"><figcaption>Botes de pedal para remar en familia</figcaption></figure>
+          </div>
+
+          <p>Y para la noche, ¿qué mejor que una cena con vista a la ciudad? A unos <strong>20 minutos en auto</strong>, por la variante Romelia - El Pollo, está <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=El+Parche+Picnic+Dosquebradas+Risaralda" target="_blank" rel="noopener">El Parche Picnic</a>, un restaurante campestre al aire libre con <strong>una de las vistas nocturnas más bonitas de todo Pereira</strong>. Tiene zona de juegos segura para que los niños se entretengan mientras llega la comida, y un menú con carnes a la parrilla, hamburguesas y opciones para todos los gustos.</p>
+
+          <div class="feature-photo">
+            <img src="assets/img/el_parche_picnic002.jpg" alt="El Parche Picnic, restaurante campestre al aire libre con vista nocturna de Pereira">
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"><img src="assets/brand/vector001.png" alt=""></div>
+
+      <!-- DÍA 2 -->
+      <div class="section-block">
+        <div class="wrap">
+          <div class="day-heading">
+            <span class="day-tag">02</span>
+            <h2 id="dia-2" style="margin:0; scroll-margin-top:28px;">Día 2: Palmas gigantes de Cocora y calles de colores en Salento</h2>
+          </div>
+
+          <p>Después de la primera tarde tranquila, el segundo día es para la aventura de naturaleza más emblemática de Colombia: el <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Valle+de+Cocora+Quindio" target="_blank" rel="noopener">Valle de Cocora</a> y el colorido pueblo de <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Salento+Quindio" target="_blank" rel="noopener">Salento</a>. Nuestra recomendación es salir mínimo a las <strong>7:00 AM</strong>, y si pueden, hacerlo entre semana. Así evitan la congestión en la vía y caminan por el valle casi en soledad, con la niebla de la mañana todavía enredada entre las <strong>palmas de cera de 60 metros de altura</strong> y el canto de los pájaros como única compañía.</p>
+
+          <p>Si viajan con niños pequeños o bebés, mejor olvídense de la caminata circular larga — puede ser bastante exigente—. Elijan el <strong>sendero lineal corto de la finca privada (6 km ida y vuelta)</strong>: no es un camino plano, pero sí es mucho más corto y llevadero que el circuito grande, ideal para que los niños lo disfruten sin agotarse de más.</p>
+
+          <div class="feature-photo">
+            <img src="assets/img/salento_casa002.jpg" alt="Fachadas coloniales de colores vibrantes en la Calle Real, Salento">
+          </div>
+
+          <p>Después de la caminata, bajen hasta el casco urbano de Salento para almorzar. <strong>El plato obligado es una trucha arcoíris —al ajillo o gratinada— servida sobre un patacón crujiente gigante.</strong> Luego, caminen sin afán por la Calle Real, dejándose sorprender por las fachadas coloniales pintadas en colores vibrantes, prueben un helado de paila artesanal, y aparten un rato para las tiendas de artesanías: siempre hay algo hecho a mano que termina siendo el mejor recuerdo del viaje.</p>
+
+          <div class="gallery gallery-2">
+            <figure><img src="assets/img/valle_del_cocora.jpg" alt="Palmas de cera del Valle de Cocora, sendero en familia"><figcaption>Palmas de cera, Valle de Cocora</figcaption></figure>
+            <figure><img src="assets/img/salento_helado.jpg" alt="Helado de paila artesanal en Salento"><figcaption>Helado de paila artesanal</figcaption></figure>
+          </div>
+
+          <div class="cta-block">
+            <div class="cta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F7EDE6" stroke-width="1.8"><path d="M12 21s-7-6.1-9.5-10A6 6 0 0 1 12 5a6 6 0 0 1 9.5 6c-2.5 3.9-9.5 10-9.5 10z"/></svg>
+            </div>
+            <p class="cta-text">Si quieres más información sobre nuestro Airbnb en Dosquebradas, haz clic aquí.</p>
+            <a class="cta-btn" href="https://airbnb.com/h/laperlahaus" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 2 12h3v9h6v-6h2v6h6v-9h3z"/></svg>
+              Haz clic aquí
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"><img src="assets/brand/vector001.png" alt=""></div>
+
+      <!-- DÍA 3 -->
+      <div class="section-block">
+        <div class="wrap">
+          <div class="day-heading">
+            <span class="day-tag">03</span>
+            <h2 id="dia-3" style="margin:0; scroll-margin-top:28px;">Día 3: Termales, chorizo santarrosano y alta repostería</h2>
+          </div>
+
+          <p>Después de dos días llenos de caminatas y descubrimiento, el tercer día está pensado para bajar el ritmo. Y no hay mejor manera de cerrar con broche de oro que una mañana de relajación en los <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Termales+Santa+Rosa+de+Cabal+Risaralda" target="_blank" rel="noopener">Termales de Santa Rosa de Cabal</a>, a <strong>1 hora en auto</strong> desde Dosquebradas.</p>
+
+          <div class="feature-photo">
+            <img src="assets/img/termales_de_santa_rosa_cascada.jpg" alt="Cascada de 100 metros en los Termales de Santa Rosa de Cabal">
+          </div>
+
+          <p>El paisaje los recibe con una <strong>cascada de 100 metros</strong> que cae fría y estruendosa desde la montaña —una postal preciosa para la cámara—, mientras que a sus pies los esperan las piscinas termales, esas sí de <strong>aguas calientes y ricas en minerales</strong>, donde realmente se van a sumergir en familia.</p>
+
+          <div class="gallery gallery-2">
+            <figure><img src="assets/img/termales_de_santa_rosa_piscina002.jpg" alt="Piscinas termales de aguas calientes en Santa Rosa de Cabal"><figcaption>Piscinas termales</figcaption></figure>
+            <figure><img src="assets/img/termales-hotel-y-spa.jpg" alt="Termales Hotel y Spa, Santa Rosa de Cabal"><figcaption>Termales Hotel y Spa</figcaption></figure>
+          </div>
+
+          <div class="info-box">
+            <p style="margin:0;"><strong>Tip de ahorro:</strong> entre semana (lunes a jueves) la entrada cuesta <strong>$49.900 COP</strong> por adulto y no maneja límite de tiempo por turnos; los fines de semana sube a <strong>$60.000 COP</strong> y sí aplican turnos de 4 horas. Los niños pagan <strong>$35.000 COP</strong> cualquier día de la semana. (Estas tarifas son las que aplican para visitantes nacionales; no tenemos confirmado si hay una tarifa distinta para extranjeros, así que les recomendamos confirmarlo al momento de comprar la entrada.) Nuestro consejo de siempre: vayan entre semana en la mañana, así disfrutan las piscinas a su propio ritmo de familia.</p>
+          </div>
+
+          <div class="packing-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
+            <p style="margin:0;">No olviden empacar: <strong>traje de baño de licra o nailon (es obligatorio para entrar)</strong> y un abrigo ligero para el regreso, porque al salir del agua la montaña se pone fría de un momento a otro.</p>
+          </div>
+
+          <p>Almuerzo: al bajar de los termales, dos opciones que nunca fallan: <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Raices+Santarrosanas+Santa+Rosa+de+Cabal+Risaralda" target="_blank" rel="noopener">Raíces Santarrosanas</a> o el <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Restaurante+Don+Lolo+Santa+Rosa+de+Cabal+Risaralda" target="_blank" rel="noopener">Restaurante Don Lolo</a>, ambos con la gastronomía típica de la zona y el <strong>chorizo santarrosano</strong> que hizo famoso a este municipio.</p>
+
+          <p>La tarde de café: para el ritual de la tarde, elijan entre <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=La+Pasteleria+Cesar+Restrepo+Santa+Rosa+de+Cabal" target="_blank" rel="noopener">La Pastelería César Restrepo</a> —con su café de especialidad y sus tortas artesanales, <strong>la genovesa de tres leches y la María Luisa son las favoritas de la casa</strong>— o el <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Mirador+del+Cafe+Santa+Rosa+de+Cabal+Risaralda" target="_blank" rel="noopener">Mirador del Café</a>, con gastronomía creativa, música en vivo y una vista preciosa sobre los cafetales. Cualquiera de las dos es una forma perfecta de cerrar el día.</p>
+
+          <div class="choice-grid">
+            <div class="choice-card">
+              <img src="assets/img/la_pasteleria.jpg" alt="La Pastelería César Restrepo, Santa Rosa de Cabal">
+              <div class="choice-label">La Pastelería César Restrepo</div>
+            </div>
+            <div class="choice-card">
+              <img src="assets/img/mirador_del_cafe.jpg" alt="Mirador del Café, vista sobre los cafetales">
+              <div class="choice-label">Mirador del Café</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"><img src="assets/brand/vector001.png" alt=""></div>
+
+      <!-- DÍA 4 -->
+      <div class="section-block">
+        <div class="wrap">
+          <div class="day-heading">
+            <span class="day-tag">04</span>
+            <h2 id="dia-4" style="margin:0; scroll-margin-top:28px;">Día 4: Un regreso con calma (o más aventuras)</h2>
+          </div>
+
+          <p>Después de una mañana entera de relajo en las aguas termales, el último día es para un regreso con calma. Antes de emprender el camino a casa, aprovechen las últimas horas para llevarse un pedazo del Eje Cafetero. En el centro de Pereira pueden visitar la Tienda de Artesanías de Risaralda, con <strong>más de 900 productos hechos a mano por 400 artesanos de los 14 municipios del departamento</strong>, o Artesanías El Pitufo, ideal para sombreros, ruanas y las clásicas réplicas en miniatura de los jeep Willys. Si buscan algo más pequeño y rápido de conseguir, Shop Sueños de Amor tiene bisutería y recuerdos tradicionales de madera.</p>
+
+          <p>Y si el viaje les alcanza para más días, aquí les dejamos otras cuatro joyas de la región:</p>
+
+          <div class="gems-grid">
+            <div class="gem-card">
+              <img src="assets/img/bioparque_ukumari.jpg" alt="Bioparque Ukumarí, Pereira">
+              <div class="gem-card-body">
+                <p><strong>Bioparque Ukumarí (Pereira):</strong> el centro de conservación de vida silvestre más moderno del país, con elefantes, rinocerontes y leones en hábitats que recrean la sabana africana y los bosques andinos. Tip de quienes ya fuimos: alquilen un coche infantil en la entrada por <strong>$18.000 COP</strong> para que los más pequeños no se fatiguen en el recorrido.</p>
+              </div>
+            </div>
+            <div class="gem-card">
+              <img src="assets/img/consota.jpg" alt="Parque Consotá, Pereira">
+              <div class="gem-card-body">
+                <p><strong>Parque Consotá (Pereira):</strong> piscinas de olas, toboganes gigantescos, una granja interactiva y una réplica didáctica de la cultura indígena Quimbaya.</p>
+              </div>
+            </div>
+            <div class="gem-card">
+              <img src="assets/img/el_canasto_campestre.jpg" alt="El Canasto Campestre, Cerritos">
+              <div class="gem-card-body">
+                <p><strong>El Canasto Campestre (Cerritos):</strong> el restaurante familiar campestre por excelencia, rodeado de zonas verdes y con juegos infantiles donde los niños corren libres mientras los adultos disfrutan de una buena parrilla al aire libre.</p>
+              </div>
+            </div>
+            <div class="gem-card">
+              <img src="assets/img/dos_cosechas.jpg" alt="Mirador Café Dos Cosechas, Serranía Alto del Nudo, Dosquebradas">
+              <div class="gem-card-body">
+                <p><strong>Mirador Café Dos Cosechas (Serranía Alto del Nudo):</strong> un balcón de madera en lo alto de la montaña de Dosquebradas, proyecto de jóvenes caficultores locales, con café orgánico cultivado en su propia finca y una panorámica hermosa de Pereira.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- ANTES DE QUE SE VAYAN -->
+    <section class="closing-section">
+      <div class="wrap">
+        <h2 id="antes-de-que-se-vayan" style="scroll-margin-top:28px;">Antes de que se vayan...</h2>
+
+        <p style="margin-top:22px;">Si llegaron hasta aquí, probablemente ya se están imaginando el olor del café en la mañana, el sonido del agua en Termales o el primer bocado de trucha en Salento. Esa es exactamente la sensación que queremos que se lleven de nuestra tierra.</p>
+
+        <p>Todo este itinerario lo armamos pensando en una base cómoda desde donde moverse sin complicaciones: <strong>nuestro apartamento La Perla Haus Dosquebradas</strong>, dentro de un conjunto residencial cerrado con seguridad 24/7, parqueadero privado, piscina y wifi de alta velocidad. Con todo lo necesario para que la familia descanse bien entre una aventura y otra. Si quieres más información sobre nuestro Airbnb, haz clic aquí.</p>
+
+        <div class="apt-features">
+          <span class="apt-feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+            Seguridad 24/7
+          </span>
+          <span class="apt-feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M10 8h2.5a2 2 0 1 1 0 4H10V8zM10 12v4"/></svg>
+            Parqueadero privado
+          </span>
+          <span class="apt-feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 15.5c1.8-1.6 3.6-1.6 5.4 0s3.6 1.6 5.4 0 3.6-1.6 5.4 0 3.6 1.6 5.4 0"/><path d="M2 19.5c1.8-1.6 3.6-1.6 5.4 0s3.6 1.6 5.4 0 3.6-1.6 5.4 0 3.6 1.6 5.4 0"/><path d="M6 15.5V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3M14 15.5V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3"/></svg>
+            Piscina
+          </span>
+          <span class="apt-feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8.111 16.404a5.5 5.5 0 0 1 7.778 0"/><path d="M5.858 13.75a9 9 0 0 1 12.284 0"/><path d="M3.5 11a12.5 12.5 0 0 1 17 0"/><circle cx="12" cy="19" r="1" fill="currentColor" stroke="none"/></svg>
+            Wifi de alta velocidad
+          </span>
+        </div>
+
+        <div class="apt-gallery">
+          <button type="button" class="apt-photo-btn" data-lightbox-index="0" aria-label="Ver foto ampliada del apartamento">
+            <img src="assets/img/apartamento004.jpg" alt="Apartamento La Perla Haus Dosquebradas, habitación">
+          </button>
+          <button type="button" class="apt-photo-btn" data-lightbox-index="1" aria-label="Ver foto ampliada del apartamento">
+            <img src="assets/img/apartamento005.jpg" alt="Apartamento La Perla Haus Dosquebradas, sala">
+          </button>
+          <button type="button" class="apt-photo-btn" data-lightbox-index="2" aria-label="Ver foto ampliada del apartamento">
+            <img src="assets/img/apartamento006.jpg" alt="Apartamento La Perla Haus Dosquebradas, piscina">
+          </button>
+        </div>
+
+        <div class="cta-block final">
+          <div class="cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F7EDE6" stroke-width="1.8"><path d="M12 21s-7-6.1-9.5-10A6 6 0 0 1 12 5a6 6 0 0 1 9.5 6c-2.5 3.9-9.5 10-9.5 10z"/></svg>
+          </div>
+          <p class="cta-text">Si quieres más información sobre nuestro Airbnb, haz clic aquí.</p>
+          <a class="cta-btn" href="https://airbnb.com/h/laperlahaus" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 2 12h3v9h6v-6h2v6h6v-9h3z"/></svg>
+            Haz clic aquí
+          </a>
+        </div>
+
+        <div class="teaser">
+          Y si quieren conocer otros planes por el Eje Cafetero, los esperamos en nuestro blog "Qué Hacer en el Eje Cafetero" — nuestra próxima guía, con más rutas, más sabores y más rincones que solo un local conoce.
+        </div>
+
+        <div class="signature">
+          <div class="signature-icon"><img src="assets/brand/vector004.png" alt=""></div>
+          <div class="signature-text">
+            <p>Con cariño (y un tinto recién servido),</p>
+            <p class="sign-name">Dany y Richard</p>
+            <p class="sign-role">Pereiranos, viajeros y anfitriones de La Perla Haus</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="../index.html"><img src="assets/brand/logo_la_perla_blanco.png" alt="La Perla Haus — volver al inicio"></a>
+    <p class="promise">Tu hogar en el Eje Cafetero.</p>
+    <div class="social-row">
+      <a class="social-icon instagram" href="https://www.instagram.com/laperlahaus.co?igsh=MW1mdHV4OG1yZDM5cw==" target="_blank" rel="noopener" aria-label="Instagram de La Perla Haus">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+    <p class="fine">© 2026 La Perla Haus — Dosquebradas, Risaralda, Colombia</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada del apartamento">
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Foto anterior">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Foto del apartamento La Perla Haus Dosquebradas">
+    <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Foto siguiente">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <div class="whatsapp-float">
+    <span class="whatsapp-label">¿Dudas? Escríbenos</span>
+    <a class="whatsapp-btn" href="https://api.whatsapp.com/send/?phone=573207046409&text=Hola+Dany+y+Richard%2C+quiero+hospedarme+con+ustedes+en+La+Perla+Haus+y+tengo+una+duda+antes+de+reservar.+%C2%BFMe+pueden+ayudar%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.71 14.02c-.24.68-1.19 1.24-1.95 1.4-.53.11-1.22.2-3.55-.76-2.98-1.23-4.9-4.26-5.05-4.46-.15-.2-1.21-1.61-1.21-3.07 0-1.46.76-2.18 1.03-2.48.27-.3.59-.37.79-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.14.07.15.12.32.02.52-.1.2-.15.32-.29.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.48.13.65-.07.18-.2.75-.87.95-1.17.2-.3.4-.25.68-.15.28.1 1.78.84 2.08.99.3.15.5.22.57.35.08.13.08.72-.16 1.4z"/></svg>
+    </a>
+  </div>
+
+  <script>
+    (function(){
+      /* ---- Mobile nav ---- */
+      var navToggle = document.getElementById('navToggle');
+      var navLinks = document.getElementById('navLinks');
+      if(navToggle && navLinks){
+        navToggle.addEventListener('click', function(){
+          navLinks.classList.toggle('is-open');
+        });
+        navLinks.querySelectorAll('a').forEach(function(a){
+          a.addEventListener('click', function(){ navLinks.classList.remove('is-open'); });
+        });
+      }
+
+      var photos = [
+        { src: "assets/img/apartamento004.jpg", alt: "Apartamento La Perla Haus Dosquebradas, habitación" },
+        { src: "assets/img/apartamento005.jpg", alt: "Apartamento La Perla Haus Dosquebradas, sala" },
+        { src: "assets/img/apartamento006.jpg", alt: "Apartamento La Perla Haus Dosquebradas, piscina" }
+      ];
+      var current = 0;
+      var lightbox = document.getElementById('lightbox');
+      var lightboxImg = document.getElementById('lightboxImg');
+      var counter = document.getElementById('lightboxCounter');
+      var buttons = document.querySelectorAll('.apt-photo-btn');
+
+      function show(index){
+        current = (index + photos.length) % photos.length;
+        lightboxImg.src = photos[current].src;
+        lightboxImg.alt = photos[current].alt;
+        counter.textContent = (current + 1) + ' / ' + photos.length;
+      }
+
+      function open(index){
+        show(index);
+        lightbox.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close(){
+        lightbox.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
+
+      buttons.forEach(function(btn){
+        btn.addEventListener('click', function(){
+          open(parseInt(btn.getAttribute('data-lightbox-index'), 10));
+        });
+      });
+
+      document.getElementById('lightboxClose').addEventListener('click', close);
+      document.getElementById('lightboxNext').addEventListener('click', function(){ show(current + 1); });
+      document.getElementById('lightboxPrev').addEventListener('click', function(){ show(current - 1); });
+
+      lightbox.addEventListener('click', function(e){
+        if(e.target === lightbox){ close(); }
+      });
+
+      document.addEventListener('keydown', function(e){
+        if(!lightbox.classList.contains('is-open')) return;
+        if(e.key === 'Escape') close();
+        if(e.key === 'ArrowRight') show(current + 1);
+        if(e.key === 'ArrowLeft') show(current - 1);
+      });
+    })();
+  </script>
+
+</body>
+</html>
