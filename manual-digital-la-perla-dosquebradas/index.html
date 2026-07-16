@@ -473,6 +473,21 @@
   .site-footer .promise{ font-size: 15px; font-weight: 600; margin-bottom: 8px; }
   .site-footer .fine{ font-size: 11.5px; opacity: 0.85; margin-top: 10px; }
 
+  .social-lead{ font-size: 12.5px; font-weight: 600; letter-spacing: 0.04em; opacity: 0.9; margin: 18px 0 12px; }
+  .social-row{ display: flex; justify-content: center; gap: 10px; }
+  .social-icon{
+    width: 38px; height: 38px; border-radius: 50%;
+    background: rgba(247,237,230,0.14);
+    border: 1px solid rgba(247,237,230,0.3);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--crema);
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .social-icon:hover{ background: rgba(247,237,230,0.28); transform: translateY(-2px); }
+  .social-icon svg{ width: 18px; height: 18px; }
+  .social-icon.instagram, .social-icon.tiktok, .social-icon.facebook{ background: var(--terracota); border-color: var(--terracota); color: var(--crema); }
+  .social-icon.instagram:hover, .social-icon.tiktok:hover, .social-icon.facebook:hover{ background: #A34F2E; }
+
   /* ---------- WHATSAPP FLOTANTE ---------- */
 
   .whatsapp-float{
@@ -967,19 +982,18 @@
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6 6.6.6-5 4.4 1.5 6.5-6-3.6-6 3.6L7.5 13l-5-4.4 6.6-.6z"/></svg>
         </div>
 
-        <div class="feature-photo">
-          <img src="assets/img/te_gusto_tu_estancia.jpg" alt="Rincón de lectura del apartamento La Perla Haus Dosquebradas">
-        </div>
-
         <div class="cta-block final">
           <div class="cta-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="#F7EDE6" stroke-width="1.8"><path d="M12 21s-7-6.1-9.5-10A6 6 0 0 1 12 5a6 6 0 0 1 9.5 6c-2.5 3.9-9.5 10-9.5 10z"/></svg>
           </div>
-          <p class="cta-text">Nos encantaría que compartas tu experiencia dejando una reseña.</p>
           <a class="cta-btn" href="https://airbnb.com/h/laperlahaus" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 2 12h3v9h6v-6h2v6h6v-9h3z"/></svg>
             Dejar una reseña en Airbnb
           </a>
+        </div>
+
+        <div class="feature-photo">
+          <img src="assets/img/te_gusto_tu_estancia.jpg" alt="Rincón de lectura del apartamento La Perla Haus Dosquebradas">
         </div>
 
         <p style="margin-top: 22px;">Si hay algo que podamos mejorar, cuéntanos por interno.</p>
@@ -992,6 +1006,18 @@
   <footer class="site-footer">
     <img src="assets/brand/logo_la_perla_cafe.png" alt="La Perla Haus">
     <p class="promise">Tu hogar en el Eje Cafetero.</p>
+    <p class="social-lead">Síguenos en redes sociales</p>
+    <div class="social-row">
+      <a class="social-icon instagram" href="https://www.instagram.com/laperlahaus.co?igsh=MW1mdHV4OG1yZDM5cw==" target="_blank" rel="noopener" aria-label="Instagram de La Perla Haus">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="social-icon tiktok" href="https://www.tiktok.com/@laperlahaus.co?_r=1&_t=ZS-985PE7lHP0S" target="_blank" rel="noopener" aria-label="TikTok de La Perla Haus">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M13 7.2v7.6a2.4 2.4 0 1 1-2-2.36"/><path d="M13 7.2c.28 1.6 1.5 2.85 3.1 3.05"/></svg>
+      </a>
+      <a class="social-icon facebook" href="https://www.facebook.com/share/18WBzygxve/" target="_blank" rel="noopener" aria-label="Facebook de La Perla Haus">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M14 21v-7h2.4l.4-3H14V9.2A1.5 1.5 0 0 1 15.5 7.7H17V4.9c-.4-.05-1.4-.15-2.5-.15A4 4 0 0 0 10.5 8.7V11H8v3h2.5v7"/></svg>
+      </a>
+    </div>
   </footer>
 
   <!-- WHATSAPP FLOTANTE -->
